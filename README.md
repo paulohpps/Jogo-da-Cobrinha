@@ -2,9 +2,9 @@
 
 Tecnologias Ultilizadas:
 
--Html 5
--CSS 3
--JavaScript
+- Html 5
+- CSS 3
+- JavaScript
 
 by: Paulohpps
 

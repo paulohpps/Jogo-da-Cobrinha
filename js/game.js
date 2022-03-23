@@ -48,7 +48,13 @@ var GAME_SPEED = 100 ;
       // If the game ended return early to stop game
       if (didGameEnd()) 
       {
-        location.reload();
+        var r=confirm("Você Perdeu!, Deseja Jogar Novamente");
+        if(r==true)
+          location.reload();
+        else
+        {
+          alert("Ok Sua Pontuação foi de "+ score +", Caso Deseje Jogar Novamente Reinicie a Pagina")
+        }
       return
       }
 
